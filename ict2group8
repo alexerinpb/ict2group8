@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+     <div id="wrapper_team">
+  <div class="title_team">
+    <h1>Mini Webpage: Group 8</h1>
+    <p> Members' Information</p>
+  </div>
+  <div class="team_box">
+    <div id="teamcontent">
+      <div class="container-left">
+        <div class="bigimg" height="260" width="225">&nbsp;</div>
+      </div>
+      
+      <meta charset ="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Webpage: Group 8</title> 
+      
+         <style>
+.hidden {
+  display: none;
+      }
+</style> 
+
+  <style> 
+  .box{
+    width:350px;
+    height:450px;
+    margin:50px;
+    display: inline-block;
+    text-align: center;
+    overflow: hideen;
+    white-space: nowrap;
+  }
+   
+  #box1{
+    background-color: #C2A5CC;
+  }
+  
+   #box2{
+    background-color: #E4F1EE;
+  }
+  
+   #box3{
+    background-color: #FFADAD;
+  }
+  
+   #box4{
+    background-color: #FFF5E4;
+  }
+  
+   #box5{
+    background-color: #D9EDF8;
+  }
+  </style>
+
+  </head> 
+  
+    <body>
+      <button onclick="toggleContent()">Click here</button>
+      <div id="hiddenContent">
+        <div id="box1" class="box">Bautista
+          <h4>Full Name: Alessandra Erin P. Bautista</h4>
+          <h4>Age: 16 years old</h4>
+          <h4>Birthday: June 13, 2007</h4>
+          <h4>Adress: Kabayanan, San Juan</h4>
+          <h4>Contact Number: 09918501260</h4>
+          
+          <img src="https://i.postimg.cc/tR3jJnjh/1d2cae8a-ce32-45ab-b3ae-ffbc52aa13e8.jpg" width="150" height="180">      
+        </div> 
+        
+         <div id="box2" class="box">Bardaje
+          <h4>Full Name: Nica Bardaje</h4>
+          <h4>Age: 16 years old</h4>
+          <h4>Birthday: July 01, 2007</h4>
+          <h4>Adress: Addition Hills, Mandaluyong</h4>
+          <h4>Contact Number: 09984440690</h4>
+           
+            <img src="https://i.postimg.cc/XJcsSCZ8/433508653-960070238506569-1336708891835048488-n.jpg" width="150" height="180">  
+           
+        </div> 
+        
+         <div id="box3" class="box">Bernardo
+          <h4>Full Name: Kirstien Hailley Bernardo</h4>
+          <h4>Age: 17 years old</h4>
+          <h4>Birthday: December 09, 2006</h4>
+          <h4>Adress: Sta. Lucia, San Juan</h4>
+          <h4>Contact Number: 09484008249</h4>
+           
+             <img src="https://i.postimg.cc/JhQXRcqG/429073949-385053350937562-7399815701550009892-n.jpg" width="200" height="180">  
+           
+        </div> 
+        
+         <div id="box4" class="box">Alberto
+          <h4>Full Name: Selwyn Bernabe</h4>
+          <h4>Age: 16 years old</h4>
+          <h4>Birthday: August 22, 2007</h4>
+          <h4>Adress: Bagumbayan, Sta. Mesa</h4>
+          <h4>Contact Number: 09621052094</h4>
+           
+           <img src="https://i.postimg.cc/mgsNRDsp/434412946-712089601113342-1804130188436875074-n.jpg" width="150" height="180">  
+        </div> 
+        
+         <div id="box5" class="box">Esquivel
+          <h4>Full Name: Joshua Lloyd Esquivel</h4>
+          <h4>Age: 18 years old</h4>
+          <h4>Birthday: November 07, 2005</h4>
+          <h4>Adress: Mandaluyong</h4>
+          <h4>Contact Number: 09498052992</h4>
+           
+            <img src="https://i.postimg.cc/Wpm1Cb51/434063456-958294282559002-8298903903261825364-n.jpg" width="150" height="180">  
+      
+        </div> 
+      
+      <script>
+  function toggleContent() {
+    var content = document.getElementById("hiddenContent");
+    if (content.style.display ==="none") {
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
+  }
+    </script>
+    </body> 
+    </html> 
+
+
+CSS
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #FED8EC;
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 600px
+}
+
+.title_team {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  background-color: #FBB1D3;
+  margin-top: 0 !important;
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.title_team h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-weight:800;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  letter-spacing: .05em;
+
+
+
